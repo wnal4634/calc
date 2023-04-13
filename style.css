@@ -68,6 +68,7 @@ body {
     font-family: inherit;
     font-size: 24px;
     height: 65px;
+    transition: ease 0.3s;
 }
 
 .calc-button:last-child {
@@ -88,10 +89,12 @@ body {
 
 .calc-button:hover {
     background-color: inherit;
+    transition: ease 0.3s;
 }
 
 .calc-button:active {
     background-color: #ffef78;
+    transition: 0s;
 }
 
 .double {
